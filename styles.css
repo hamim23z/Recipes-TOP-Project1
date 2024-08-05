@@ -16,6 +16,11 @@ body {
     text-transform: uppercase;
 }
 
+#index-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
 .main-recipe-section {
     justify-content: center;
     padding: 20px;
@@ -35,4 +40,206 @@ body {
     padding-top: 10px;
     font-weight: bold;
 
+}
+
+
+/*Banana Bread Section*/
+#banana-bread-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#banana-bread-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+.main-banana-bread-section {
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-banana-bread-section img {
+    padding-bottom: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-banana-bread-section h3 {
+    padding-bottom: 15px;
+}
+
+.main-banana-bread-section p {
+    text-align: center;
+    display: flex;
+}
+
+.main-banana-bread-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+
+
+/*Brownies Section*/
+#brownies-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#brownies-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+.main-brownies-section {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-brownies-section img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main-brownies-section h3 {
+    padding-bottom: 15px;
+}
+
+.main-brownies-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+
+
+/*Cookies Section*/
+#cookies-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#cookies-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+.main-cookies-section {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-cookies-section img {
+    margin: 0 auto;
+}
+
+.main-cookies-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.main-cookies-section h3 {
+    padding-bottom: 15px;
+}
+
+.main-cookies-section p {
+    padding-bottom: 20px;
+}
+
+
+
+/*Garlic Bread Section*/
+#garlicbread-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#garlicbread-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+.main-garlicbread-section {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-garlicbread-section img {
+    margin: 0 auto;
+}
+
+.main-garlicbread-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.main-garlicbread-section h3 {
+    padding-bottom: 15px;
+}
+
+.main-garlicbread-section p {
+    padding-bottom: 20px;
+}
+
+
+
+/*Hashbrowns Section*/
+#hashbrowns-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+#hashbrowns-main-title a {
+    text-decoration: none;
+    color: #111;
+}
+
+.main-hashbrowns-section {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-hashbrowns-section img {
+    margin: 0 auto;
+}
+
+.main-hashbrowns-section ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.main-hashbrowns-section h3 {
+    padding-bottom: 15px;
+}
+
+.main-hashbrowns-section p {
+    padding-bottom: 20px;
 }
