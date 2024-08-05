@@ -102,21 +102,28 @@ body {
 }
 
 .main-brownies-section {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 20px;
 }
 
 .main-brownies-section img {
     margin: 0 auto;
     padding-bottom: 20px;
+    justify-content: center;
 }
 
 .main-brownies-section h3 {
     padding-bottom: 15px;
+}
+
+.main-brownies-section p {
+    text-align: center;
+    display: flex;
 }
 
 .main-brownies-section ul {
@@ -140,20 +147,29 @@ body {
 }
 
 .main-cookies-section {
-    width: 1200px;
+    justify-content: center;
+    padding: 20px;
     margin: 0 auto;
-    text-align: center;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .main-cookies-section img {
+    padding-bottom: 20px;
+    justify-content: center;
     margin: 0 auto;
 }
 
 .main-cookies-section ul {
     list-style: none;
     padding-bottom: 20px;
+}
+
+.main-cookies-section p {
+    text-align: center;
+    display: flex;
 }
 
 .main-cookies-section h3 {
@@ -180,11 +196,13 @@ body {
 }
 
 .main-garlicbread-section {
-    width: 1200px;
+    justify-content: center;
+    padding: 20px;
     margin: 0 auto;
-    text-align: center;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .main-garlicbread-section img {
@@ -220,14 +238,18 @@ body {
 }
 
 .main-hashbrowns-section {
-    width: 1200px;
+    justify-content: center;
+    padding: 20px;
     margin: 0 auto;
-    text-align: center;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .main-hashbrowns-section img {
+    padding-bottom: 20px;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -242,42 +264,6 @@ body {
 
 .main-hashbrowns-section p {
     padding-bottom: 20px;
-}
-
-
-
-/*Fully Responsiveness*/
-@media (max-width: 600px) {
-    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
-        padding: 10px;
-    }
-    .recipe-cards {
-        padding-bottom: 50px;
-    }
-    p {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 768px) {
-    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
-        padding: 15px;
-    }
-    .recipe-cards {
-        padding-bottom: 75px;
-    }
-    p {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
-        padding: 20px;
-    }
-    .recipe-cards {
-        padding-bottom: 100px;
-    }
+    text-align: center;
+    display: flex;
 }
