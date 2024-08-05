@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+#index-main-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.main-recipe-section {
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.recipe-cards {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-cards a {
+    text-decoration: none;
+    color: red;
+    padding-top: 10px;
+    font-weight: bold;
+
 }
