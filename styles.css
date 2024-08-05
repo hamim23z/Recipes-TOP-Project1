@@ -243,3 +243,41 @@ body {
 .main-hashbrowns-section p {
     padding-bottom: 20px;
 }
+
+
+
+/*Fully Responsiveness*/
+@media (max-width: 600px) {
+    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
+        padding: 10px;
+    }
+    .recipe-cards {
+        padding-bottom: 50px;
+    }
+    p {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
+        padding: 15px;
+    }
+    .recipe-cards {
+        padding-bottom: 75px;
+    }
+    p {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .main-recipe-section, .main-banana-bread-section, .main-brownies-section, .main-cookies-section, .main-garlicbread-section, .main-hashbrowns-section {
+        padding: 20px;
+    }
+    .recipe-cards {
+        padding-bottom: 100px;
+    }
+}
